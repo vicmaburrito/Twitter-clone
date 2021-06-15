@@ -19,7 +19,12 @@
 .navbar-brand .title {
   color: white;
 }
-
+.notification:not(:last-child){
+    margin-bottom: 0;
+}
+.notification.is-primary{
+    border-radius: 0;
+}
 //round images
  .image {
      border-radius: 50%;
