@@ -6,10 +6,9 @@
     </p>
     </figure>
     <div class="media-content">
-
+      <%= render 'tweeets/form' %>
     </div>
   </article>
-</div>
 
 <% @tweeets.each do |tweeet | %>
   <div class="box">
@@ -21,8 +20,8 @@
       </div>
         <div class="media-content">
           <div class="content">
-          <strong>Joshua Velazquez</strong><br />
-          <small>@kingkroll</small><br/>
+          <strong>Manuel Aldaraca</strong><br />
+          <small>@vicma</small><br/>
           <p><%= tweeet.tweeet%></p>
           </div>
           <nav class="level">
@@ -42,3 +41,4 @@
     </article>
   </div>
 <%end%>
+</div>
